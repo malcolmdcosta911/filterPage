@@ -1,0 +1,93 @@
+:root {
+  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  /* color: rgba(255, 255, 255, 0.87);
+  background-color: #242424; */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --primary-color: #007bff;
+  /* Example: main brand color */
+  --secondary-color: #6c757d;
+  /* Example: secondary accent color */
+  --text-color: #333333;
+
+  --text-hover-color: #2b2929;
+  /* Example: default text color */
+  --background-color: #f8f9fa;
+  /* Example: default background color */
+  --success-color: #28a745;
+  /* Example: success message color */
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 1rem;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.body-container {
+  /* position: relative; */
+  /* z-index: 1; */
+}
+
+button {
+  cursor: pointer;
+  font-size: inherit;
+}
+
+input {
+  font-size: inherit;
+}
+
+input::placeholder {
+  color: rgb(88, 86, 86);
+  opacity: 1;
+  font-size: inherit;
+  font-weight: 600;
+  /* Firefox */
+}
+
+input::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: rgb(88, 86, 86);
+}
+
+
+select {
+  padding: 10px;
+  font-size: inherit;
+}
+
+
+input[type="checkbox"] {
+  accent-color: rgb(4, 77, 4);
+  padding: 4px;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+
+.conatiner {
+  padding: 35px 20px;
+  padding-top: 100px;
+}

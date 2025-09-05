@@ -1,0 +1,41 @@
+
+
+
+.contents {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(19%, 1fr));
+    gap: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .contents {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(28%, 1fr));
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contents {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(40%, 1fr));
+
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .contents {
+        display: grid;
+        grid-template-columns: 90%;
+        justify-content: center;
+
+    }
+}
+
+/* .no-products-found {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    opacity: .8;
+} */

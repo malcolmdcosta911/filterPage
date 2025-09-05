@@ -1,0 +1,44 @@
+
+###
+
+GET http://localhost:5000/
+
+
+###
+
+
+###
+POST http://localhost:5000/api/products/paginated
+    content-type: application/json
+
+    {
+        "pageNo": 1,
+        "pageSize": 3
+    }
+    
+
+
+###
+
+###
+POST http://localhost:5000/api/products/filter
+    content-type: application/json
+
+    {
+        "pageNo": 1,
+        "pageSize": 5,
+        "query":"bandpresto",
+        "sizes":[]
+
+    }
+    
+###
+
+GET http://localhost:5000/api/products/68a3b2f3a7f284e757602bc9
+
+
+
+###
+
+
+###
