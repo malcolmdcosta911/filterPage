@@ -6,87 +6,87 @@ const db = process.env.MONGO_URL;
 
 const data = [
   {
-    name: "Happiny",
-    description: "Happiny plushie",
+    name: "Red tshirt",
+    description: "Red tshirt desc",
     images: [
       {
         source: "https://picsum.photos/200/300",
       },
     ],
-    brand: "Bandpresto",
+    brand: "levis",
     size: "S",
     price: 12,
   },
   {
-    name: "Pawmi",
-    description: "Pawmi plushie",
+    name: "blue tshirt",
+    description: "blue tshirt desc",
     images: [
       {
         source: "https://picsum.photos/200/300",
       },
     ],
-    brand: "Bandpresto",
+    brand: "adidas",
     size: "M",
     price: 36,
   },
   {
-    name: "Gible",
-    description: "Gible plushie",
+    name: "blue tshirt",
+    description: "blue tshirt desc",
     images: [
       {
         source: "https://picsum.photos/200/300",
       },
     ],
-    brand: "Bandpresto",
+    brand: "Nike",
     size: "M",
     price: 40,
   },
   ,
   {
-    name: "Pikachu",
-    description: "Pikachu plushie",
+    name: "blue tshirt",
+    description: "blue tshirt desc",
     images: [
       {
         source: "https://picsum.photos/200/300",
       },
     ],
-    brand: "Nintendo",
+    brand: "Adidas",
     size: "L",
     price: 63,
   },
   {
-    name: "Kirby",
-    description: "Kirby plushie",
+    name: "White shirt",
+    description: "White shirt desc",
     images: [
       {
         source: "https://picsum.photos/200/300",
       },
     ],
-    brand: "Star collection",
+    brand: "Puma",
     size: "L",
     price: 60,
   },
   {
-    name: "Chansey",
-    description: "Chansey plushie",
+    name: "White shirt",
+    description: "White shirt desc",
     images: [
       {
         source: "https://picsum.photos/200/300",
       },
     ],
-    brand: "Star collection",
+    brand: "Nike",
     size: "S",
     price: 14,
   },
   {
-    name: "Blissey",
-    description: "Blissey plushie",
+    name: "Yellow tshirt",
+    description: "Yellow tshirt desc",
     images: [
       {
         source: "https://picsum.photos/200/300",
       },
     ],
-    brand: "Star collection",
+    brand: "levis",
     size: "S",
     price: 16,
   },
